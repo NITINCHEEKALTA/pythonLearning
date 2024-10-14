@@ -1,0 +1,18 @@
+def main():
+   num = int(input("Enter the number ? "))
+   fibonacci(num)
+
+def fibonacci(number):
+    firstNumber, secondNumber= 0,1
+    count = 0
+    if number == 0 or number < 0:
+        print("Please enter values greater zero")
+    else:
+     print(f"The fibonnaci number for {number} : ")    
+     while count < number:
+        print(firstNumber)
+        fibonacci_num = firstNumber + secondNumber
+        firstNumber = secondNumber
+        secondNumber = fibonacci_num
+        count += 1
+main()
