@@ -1,8 +1,7 @@
 import re
 
 def main():
-
-
+    colorCodeMatch()
 
 def colorCodeMatch():
 
