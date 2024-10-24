@@ -16,10 +16,10 @@ def get_student():
             return Student(name, house, patronus)
     
 def main():
-    student = get_student()
-    print(student)
+    student = Student()
+    print(student.get_student)
     print("Expecto Patronum!")
-    print(student.charm())
+    print(charm())
 
     def __str__(self):
         return f"{self.name} from {self.house}"
